@@ -1,0 +1,33 @@
+.option {
+    padding: 5px 7px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: 0.2s;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+    transform: scale(1.1);
+    transform: translateY(-4px);
+    border-radius: 5px;
+}
+
+.option > p {
+    text-transform: capitalize;
+    color: gray;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px){
+    .option > p{
+        display: none;
+    }
+
+    .option {
+        background-color: rgb(219, 219, 219);
+        border-radius: 10px;
+        padding: 4px;
+    }
+}

@@ -1,0 +1,28 @@
+.headerOpt {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+}
+
+.headerOpt-title {
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.headerOpt:hover {
+    color: rgb(12, 12, 12);
+}
+
+.headerOpt-icon {
+    object-fit: contain;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+.avator {
+    outline: 2px solid rgb(88, 88, 88);
+}

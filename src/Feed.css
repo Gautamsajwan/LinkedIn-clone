@@ -1,0 +1,50 @@
+.feed {
+    border-radius: 10px;
+    flex: 0.6;
+}
+
+.upload-section {
+    padding: 15px;
+    background-color: white;
+    border-radius: inherit;
+}
+
+.top-section {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.user-img {
+    background-color: dodgerblue;
+    outline: 3px solid rgb(204, 204, 204);
+    cursor: pointer;
+}
+
+.top-section > form {
+    flex: 1;
+}
+
+.top-section > form > input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid gray;
+}
+
+.top-section > form > input:focus {
+    border: 2px solid dodgerblue;
+}
+
+.top-section > form > button {
+    display: none;
+}
+
+.bottom-section {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
